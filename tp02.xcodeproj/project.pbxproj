@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D003D91F2164139C00B74DF1 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D003D91E2164139C00B74DF1 /* main.c */; };
+		D003D928216415A200B74DF1 /* tp2_1.c in Sources */ = {isa = PBXBuildFile; fileRef = D003D927216415A200B74DF1 /* tp2_1.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,8 @@
 		D003D91B2164139C00B74DF1 /* tp02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tp02; sourceTree = BUILT_PRODUCTS_DIR; };
 		D003D91E2164139C00B74DF1 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		D003D9252164145300B74DF1 /* enonceIP_TP2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = enonceIP_TP2.pdf; path = ../../../../Downloads/enonceIP_TP2.pdf; sourceTree = "<group>"; };
+		D003D926216415A200B74DF1 /* tp2_1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tp2_1.h; sourceTree = "<group>"; };
+		D003D927216415A200B74DF1 /* tp2_1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tp2_1.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				D003D9252164145300B74DF1 /* enonceIP_TP2.pdf */,
 				D003D91E2164139C00B74DF1 /* main.c */,
+				D003D926216415A200B74DF1 /* tp2_1.h */,
+				D003D927216415A200B74DF1 /* tp2_1.c */,
 			);
 			path = tp02;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D003D928216415A200B74DF1 /* tp2_1.c in Sources */,
 				D003D91F2164139C00B74DF1 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
