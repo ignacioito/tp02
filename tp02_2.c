@@ -51,10 +51,12 @@ matrice[R][C])
 	{
 		int i, m;
 		for(i = 0; i < 3; i++){
+			printf("\n");
 			for(m = 0; m < 3; m++){
-				printf("%d\n", matrice[i][m]);
+				printf("%d", matrice[i][m]);
 			}
 		}
+		printf("\n");
 }
 int main()
 {
