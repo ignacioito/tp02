@@ -49,7 +49,12 @@ printf("La matrice n’est pas presque magique.\n");
 int estPresqueMagique(const int R, const int C, int
 matrice[R][C])
 	{
-		
+		int i, m;
+		for(i = 0; i < 3; i++){
+			for(m = 0; m < 3; m++){
+				printf("%d\n", matrice[i][m]);
+			}
+		}
 }
 int main()
 {
@@ -57,6 +62,7 @@ int matrice[3][3] = {{2,7,6},{9,5,1},{4,3,8}};
 if (estPresqueMagique(3, 3, matrice))
 {
 printf("La matrice est presque magique.\n");
+estPresqueMagique(3,3, matrice);
 }
 else
 {
