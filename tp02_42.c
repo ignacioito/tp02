@@ -18,11 +18,11 @@ magique et faux sinon.
 int estPresqueMagique(const int R, const int C, int
 matrice[R][C])
 	{
-		int i, m;
-		for(i = 0; i < 3; i++){
+		int cont, cont2;
+		for(cont = 0; cont < R; cont++){
 			printf("\n");
-			for(m = 0; m < 3; m++){
-				printf("%d", matrice[i][m]);
+			for(cont2 = 0; cont2 < C; cont2++){
+				printf("%d", matrice[cont][cont2]);
 			}
 		}
 		printf("\n");
@@ -39,10 +39,21 @@ int main()
 	printf("%d\n", col);
 
 int matrice[ran][col];
-if (estPresqueMagique(3, 3, matrice))
+	
+	for (int i = 0; i < ran; ++i)
+	{
+		printf("Tapez le nombre %d du rangée\n", i);
+		for (int m = 0; m < col; ++m)
+		{
+			printf("Tapez le nombre %d de la colonne\n", m);
+		}
+	}
+
+
+if (estPresqueMagique(ran, col, matrice))
 {
 printf("La matrice est presque magique.\n");
-estPresqueMagique(3,3, matrice);
+estPresqueMagique(ran,col, matrice);
 }
 else
 {
