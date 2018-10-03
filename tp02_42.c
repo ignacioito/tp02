@@ -33,24 +33,25 @@ int main()
 	printf("- - - - Carré vraiment magique - - - \n");
 	printf("Tapez les nombres de rangée: \n");
 	scanf(" %d", &ran);
-	printf("%d\n", ran);
 	printf("Tapez les nombres de colonnes: \n");
 	scanf(" %d", &col);
-	printf("%d\n", col);
 
-int matrice[ran][col];
-	
+
+	int nr, nc;
 	for (int i = 0; i < ran; ++i)
 	{
 		printf("Tapez le nombre %d du rangée\n", i);
+		scanf("%d", &nr);
 		for (int m = 0; m < col; ++m)
 		{
 			printf("Tapez le nombre %d de la colonne\n", m);
+			scanf("%d", &nc);
 		}
+		int matrice[ran][col]={{nr}, {nc}};
 	}
 
 
-if (estPresqueMagique(ran, col, matrice))
+if (ran == col)
 {
 printf("La matrice est presque magique.\n");
 estPresqueMagique(ran,col, matrice);
