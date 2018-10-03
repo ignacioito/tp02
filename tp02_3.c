@@ -13,6 +13,8 @@ séquence pour la fonction demain.
 */
 
 #include <stdio.h>
+#include<time.h>
+
 typedef struct Date Date;
 struct Date{
   int jour;
