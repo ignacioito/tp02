@@ -25,8 +25,8 @@ struct Date{
 
 int bisextile(int annee)
 { 
-	struct annee dubisextile;
-	dubisextile.annee[10] = {{1988},{1992},{1996},{2000},{2004},{2008},{2012},{2016},{2020},{2024},{2028},{2032}}
+	struct annee bisextile;
+	bisextile.annee[10] = {{1988},{1992},{1996},{2000},{2004},{2008},{2012},{2016},{2020},{2024},{2028},{2032}}
  }
 int nbJoursDansMois(int mois, int annee)
 { 
