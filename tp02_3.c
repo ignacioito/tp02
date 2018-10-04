@@ -37,15 +37,15 @@ int nbJoursDansMois(int mois, int annee)
 }
 int estValide(Date date)
 { 
-	struct date dateactuel;
-	dateactuel.jour = 03;
-	dateactuel.mois = 10;
-	dateactuel.annee = 2018;
+	struct date date;
+	date.jour = 03;
+	date.mois = 10;
+	date.annee = 2018;
 }
 Date demain(Date aujourdhui)
 { 
-	struct date dedemain;
-	dedemain.date = dateactuel + 1;
+	struct date lendemain;
+	lendemain.date = date + 1;
 }
 int main() {
   Date date;
